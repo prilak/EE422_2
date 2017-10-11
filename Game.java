@@ -80,7 +80,8 @@ public class Game {
 					System.out.println(" – You win !!");	
 					return true;
 				} else {
-					System.out.println(result.b + "B_" + result.w + "W");
+					//RRRR -> Result:  1 black peg
+					System.out.println(result.answer + " -> Result: " + result.b + "B_" + result.w + "W");
 				}
 				g.decrimentCount();
 			}
